@@ -1,4 +1,4 @@
-/*!   
+/*!
  * Template Name: Developer - Portfolio Landing Page Bootstrap 5 Template for Developers
  * Version: Bootstrap 5 v1.0
  * Author: Xiaoying Riley
@@ -130,6 +130,9 @@ a.dotted-link:hover {
 
 .header .profile-image {
   margin-right: 30px;
+  height: 180px !important;
+  width: 180px !important;
+  object-fit: cover;
 }
 
 .header .profile-content .name {
@@ -828,3 +831,5 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+
