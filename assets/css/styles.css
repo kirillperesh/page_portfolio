@@ -848,6 +848,8 @@ body[data-theme="dark"] .text-muted {
   white-space: nowrap;
 }
 
-.soft-skills {
+.soft-skills-content {
   line-height: 42px;
+  text-align: justify;
+  text-align-last: justify;
 }
