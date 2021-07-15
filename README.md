@@ -1,2 +1,1 @@
-# page_portfolio
-A repository to host my portfolio
+# [Kirill Pereshitkin's Resume](https://kirillperesh.github.io/page_resume/)
