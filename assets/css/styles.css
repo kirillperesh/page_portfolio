@@ -184,8 +184,8 @@ a.dotted-link:hover {
 }
 
 .section .heading {
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 25px;
   color: #545e69;
   font-size: 24px;
 }
@@ -832,4 +832,22 @@ body[data-theme="dark"] .text-muted {
   }
 }
 
+.interests-table .interests-icon-column {
+  text-align: center;
+  padding-right: 10px;
+}
 
+.soft-skill-badge {
+  background-color: #276582;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 4px;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.soft-skills {
+  line-height: 42px;
+}

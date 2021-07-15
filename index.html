@@ -68,11 +68,54 @@
             <div class="primary col-lg-8 col-12">
                 <section class="about section">
                     <div class="section-inner shadow-sm rounded">
+                        <div class="content">
+                            <p>
+                                <h3 class="heading" style="font-size: 17px;">
+                                    Entry level web developer with 1+ years of experience looking for a place to start a new career
+                                </h3>
+                            </p>
+                        </div>
+                        <hr class="divider" />
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well.</p>
-                            <p>Waiting for the expiration to white this</p>
-                            <p>Probably should make more then 1 paragraph</p>
+                            <p>
+                                I'm an ambitious and determined person with a passion for coding and a love of math, not afraid to undertake complicated tasks and I have quite a few social skills developed over the years.
+                                <br>Looking for a remote, preferably full-time, job (optionally with further relocation), but will still consider all the options.
+                                <br>I'm ready to start a full-time web development job at any moment.
+                                <br><br>
+                            </p>
+
+                        </div><!--//content-->
+                        <h2 class="heading">Background</h2>
+                        <div class="content">
+                            <p>
+                                For the past years I've been working in civil engineering, making projects myself and later managing projects' development. Being good in maths, civil engineering and drawing at the beginning, later I've become quite experienced in planning, analyses and managing in general.
+                                <!-- <br>But then a couple of years ago I've decided to change my career and started to learn programming. I started with C++ and the basics of programming by completing this whole amazing course <a href="https://www.learncpp.com/">https://www.learncpp.com/</a>. Then I moved on to Python, Django, JS, etc. -->
+                                <br>As for now, I improve my skills and update my portfolio project daily.
+                            </p>
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="soft-skills section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Soft skills</h2>
+                        <div class="content">
+                            <span class="soft-skill-badge">Eagerness to learn and progress</span>
+                            <span class="soft-skill-badge">Ability to work under pressure</span>
+                            <span class="soft-skill-badge">Leadership</span>
+                            <span class="soft-skill-badge">Problem solving</span>
+                            <span class="soft-skill-badge">Decision making</span>
+                            <span class="soft-skill-badge">Time management</span>
+                            <span class="soft-skill-badge">Multitasking</span>
+                            <span class="soft-skill-badge">Quick learner</span>
+                            <span class="soft-skill-badge">Planning</span>
+                            <span class="soft-skill-badge">Adaptability</span>
+                            <span class="soft-skill-badge">Creativity</span>
+                            <span class="soft-skill-badge">Teamwork</span>
+                            <span class="soft-skill-badge">Mathematics</span>
+                            <span class="soft-skill-badge">Sense of humour</span>
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -98,23 +141,32 @@
 
                                 <div class="desc text-start">
                                     <p>Portfolio project in development</p>
-                                    <p>It's an online store project, written on Django with a bit of JS/jQuery. I'm trying to develop a complex, but easy-to-use and heavily tested app.</p>
+                                    <p>It's an online store project, written on Django with a bit of JS/jQuery. I'm trying to develop a somewhat complex, but easy-to-use and heavily tested app.</p>
+                                    <p>For now I've spent most of my time developing user authentication and product's CRUD and its testing.</p>
                                     <ul style="list-style-type: '&#8212&nbsp;&nbsp;&nbsp;'">
-                                        Main features:
-                                        <li>A LOT of testing</li>
+                                        <strong>Main features:</strong>
+                                        <li>LOTS of tests (divided into 4 groups: generic, forms, models and views)</li>
+                                        <li>Almost everything has docstrings and heavily (I suppose) commented</li>
                                         <li>GitHub runs tests automatically on pull request</li>
                                         <li>Custom user authentication pages</li>
-                                        <li>Google OAuth 2 integration</li>
-                                        <li>FBV &amp; CBV</li>
-                                        <li>Django sygnals</li>
-                                        <li>If parent category instance of a product or category instance got deleted, their foreign key field switches to their 'grandparent' category</li>
+                                        <li>OAuth 2 authentication integration</li>
+                                        <li>taggit &amp; photologue modules integration</li>
                                         <li>Some nice photo upload/remove/reset features</li>
-                                        <li>2</li>
+                                        <li>Lots of model fields are put in use</li>
+                                        <li>If parent category instance of a product or category instance get deleted, their foreign key field switches to their 'grandparent' category (via signals)</li>
+                                        <li>Prices, discount and profit are analyzed on save()</li>
+                                        <li>Product's 'background color' is dynamic and can be updated</li>
+                                        <li>Form classes inherit from django's form, modelForm and contrib.auth forms, depending on its task</li>
+                                        <li>FBV &amp; CBV</li>
+                                        <li>Custom view decorators to redirect non-staff users from 403 to 404</li>
                                     </ul>
-                                    <ul style="list-style-type:none">
-                                        Soon to be added features:
-                                        <li>1</li>
-                                        <li>2</li>
+                                    <ul style="list-style-type: '&#8212&nbsp;&nbsp;&nbsp;'">
+                                        <strong>Soon to be added features:</strong>
+                                        <li>The main Home page</li>
+                                        <li>Filters pannel on products page</li>
+                                        <li>Customer's cart view</li>
+                                        <li>Customer's profile view</li>
+                                        <li>Corresponding tests</li>
                                     </ul>
                                 </div><!--//desc-->
                                 <a class="btn btn-cta-secondary" href="https://github.com/kirillperesh/project_portfolio" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub Repo</a>
@@ -158,13 +210,12 @@
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Web Developer - <span class="place"><a href="#">Freelancer</a></span> <span class="year">(2019 - Present)</span></h3>
-                                <p>Since 2019 I've been in a constant learning process striving to change my career</p>
+                                <p>Since 2019 I've been in a constant learning state striving to change my career</p>
                             </div><!--//item-->
 
                             <div class="item">
                                 <h3 class="title">Civil Project Manager - <span class="place"><a href="#">Fasmer [civil engineering company]</a></span> <span class="year">(2017 - 2020)</span></h3>
-                                <p>I worked as a civil project manager for a bit more than 3 years.</p>
-                                <p>Gained a huge amount of planning, management and problem solving skills. Also became a lot more distress tolerant.</p>
+                                <p>I worked as a civil project manager for a bit more than 3 years. Managed the team of 10 to 20 engineers depending on the project. Gained a huge amount of planning, management and problem solving skills. Also became a lot more distress tolerant.</p>
                             </div><!--//item-->
 
                             <div class="item">
@@ -191,7 +242,7 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Currently in search for the country to settle in</li>
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Ukraine, Russia<br>Currently in search for the country to settle in</li>
                                 <li><i class="fas fa-paper-plane"></i><span class="sr-only">Email:</span><a href="t.me/kirillperesh">https://t.me/kirillperesh</a></li>
                                 <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="">kirill.fasmer@gmail.com</a></li>
                                 <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="">No website yet</a></li>
@@ -202,7 +253,7 @@
 
                 <aside class="skills aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Skills</h2>
+                        <h2 class="heading">Hard skills</h2>
                         <div class="content">
                             <p class="intro">
                                 Striving to gain experience and improve my skillset every day.
@@ -370,20 +421,68 @@
 
                 <aside class="list music aside section">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Favourite coding music</h2>
+                        <h2 class="heading">Interests</h2>
                         <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-robot"></i> <a href="https://www.youtube.com/watch?v=XpFKPVquSeA">NieR Replicant & Automata OST</a></li>
-                                <li><i class="fas fa-virus"></i> <a href="https://hakenmusic.com/">Haken</a></li>
-                                <li><i class="fas fa-pepper-hot"></i> <a href="https://redhotchilipeppers.com/">Red Hot Chili Peppers</a></li>
-                                <li><i class="fas fa-wrench"></i> <a href="https://toolband.com/">Tool</a></li>
-                                <li><i class="fas fa-skull"></i> <a href="https://www.youtube.com/watch?v=aam9VvzFuI0">DOOM Eternal OST</a></li>
-                                <li><i class="fas fa-bolt"></i> <a href="https://electricsix.com/">Electric Six</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="https://www.metallica.com/">etc </a> <a href="https://www.nightwish.com/">etc </a> <a href="https://theswordofficial.com/">etc </a></li>
-                            </ul>
+                            <table class="interests-table">
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-music fa-lg"></i></td>
+                                    <td>Music</td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-film fa-lg"></i></td>
+                                    <td>Movies &amp; series</td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-gamepad fa-lg"></i></td>
+                                    <td>Board and video games</td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-hiking fa-lg"></i></td>
+                                    <td>Hiking &amp; swimming</td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-cat fa-lg"></i></td>
+                                    <td>Volunteering - temporary sheltering baby pets</td>
+                                </tr>
+                            </table>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
+
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <table class="interests-table">
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-robot fa-lg"></i></td>
+                                    <td><a href="https://www.youtube.com/watch?v=XpFKPVquSeA">NieR Replicant & Automata OST</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-virus fa-lg"></i></td>
+                                    <td><a href="https://hakenmusic.com/">Haken</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-pepper-hot fa-lg"></i></td>
+                                    <td><a href="https://redhotchilipeppers.com/">Red Hot Chili Peppers</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-wrench fa-lg"></i></td>
+                                    <td><a href="https://toolband.com/">Tool</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-bolt fa-lg"></i></td>
+                                    <td><a href="https://electricsix.com/">Electric Six</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="interests-icon-column"><i class="fas fa-headphones fa-lg"></i></td>
+                                    <td><a href="https://www.taylorswift.com/">etc </a> <a href="https://www.nightwish.com/">etc </a> <a href="https://theswordofficial.com/">etc </a></td>
+                                </tr>
+                            </table>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
                 <aside class="credits aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Credits</h2>
@@ -418,9 +517,9 @@
     <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
     <!-- github calendar plugin -->
     <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- github activity plugin -->
+    <!-- github activity plugin
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script> -->
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
